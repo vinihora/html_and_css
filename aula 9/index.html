@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Example </title>
+
+        <style>
+            label {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <section>
+            <form action="#" method="get" target="_blank" autocomplete="off">
+                <p>My form</p>
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Seu nome">
+                </p>
+
+                <p>
+                    <label for="dev1">Sou um Desenv</label>
+                    <input type="checkbox" id="dev1" name="dev1">
+                    <br>
+                    <label for="dev2">Sou um Dev</label>
+                    <input type="checkbox" id="dev2" name="dev2">
+                    <br>
+                    <label for="dev3">Sou um Dev</label>
+                    <input type="checkbox" id="dev3" name="dev3">
+                </p>
+
+                <p>
+                    Gênero: <br>
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" id="feminino" name="genero" value="feminino">
+                    <br>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <br>
+                    <label for="naoinfo">Prefiro não informar</label>
+                    <input type="radio" id="naoinfo" name="genero" value="naoinfo">
+                </p>
+
+                <p>
+                    <label for="date">Data</label>
+                    <input type="date" id="date" name="date" value="2020-04-15">
+                </p>
+
+                <p>
+                    <label for="datetime">Data-Hora</label>
+                    <input type="datetime-local" id="datetime" name="datetime" value="2020-04-17T20:00">
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="ex: seuemail@email.com">
+                </p>
+
+                <p>
+                    <label for="file">Sua foto</label>
+                    <input type="file" id="file" name="file" placeholder="ex: seuemail@email.com" multiple>
+                </p>
+
+                <p>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Enviar</button>
+                </p>
+            </form>
+    </body>
+</html>
