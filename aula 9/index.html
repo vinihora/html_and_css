@@ -60,10 +60,28 @@
                 </p>
 
                 <p>
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password">
+                </p>
+
+                <p>
                     <label for="file">Sua foto</label>
                     <input type="file" id="file" name="file" placeholder="ex: seuemail@email.com" multiple>
                 </p>
 
+                <p>
+                    <label for="range">Seu humor</label>
+                    <input type="range" id="range" name="range" min="0" max="100" step="10">
+                </p>
+                
+                <p>
+                    <label for="select">Seu humor</label>
+                    <select id="select" name="select">
+                        <option value="feliz" label="feliz"></option>
+                        <option value="triste" label="triste"></option>
+                    </select>
+                </p>
+                
                 <p>
                     <button type="reset">Reset</button>
                     <button type="submit">Enviar</button>
