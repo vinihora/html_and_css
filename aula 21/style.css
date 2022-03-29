@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 24px;
+}
+
+.two-columns {
+    display: flex;
+}
+
+.two-columns .col {
+    background: greenyellow;
+    padding: 30px;
+    margin: 15px;
+    height: 500px;
+    overflow: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gallery .img{
+    height: 50px;
+    flex: 1 0 20%;
+    background-color: aqua;
+    margin: 20px;
+}

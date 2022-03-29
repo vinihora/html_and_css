@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    transition: all 0.3s ease-in-out;
+}
+
+.heading:hover {
+    color: rebeccapurple;
+}
+
+div.main-content {
+    font-style: italic;
+}
+
+input:checked + h1 {
+    color: red
+}

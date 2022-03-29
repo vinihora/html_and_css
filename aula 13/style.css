@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.one {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+.two {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.three {
+    width: 100vw;
+    height: 100vh;
+    background-color: tomato;
+}
+
+p {
+    font-size: 1.6rem;
+}

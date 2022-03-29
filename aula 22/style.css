@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 200px 1fr 2fr;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.grid div{ 
+
+    min-height: 100px;
+    background-color: tomato;
+}
